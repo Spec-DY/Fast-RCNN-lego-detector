@@ -1,6 +1,6 @@
 # LEGO Piece Detection Using Faster R-CNN
 
-## Link
+## Demo
 - **HuggingFace**: [https://huggingface.co/spaces/dionjin/Faster_R-CNN_Lego_Detector](https://huggingface.co/spaces/dionjin/Faster_R-CNN_Lego_Detector)
 
 > I recommend testing it with Blender-generated sources instead of real-world pictures, for example [this dataset](https://www.kaggle.com/datasets/marwin1665/synthetic-lego-images-images22). See details at the end of the Results and Discussion section.
