@@ -90,7 +90,7 @@ Examining the visualization outputs confirms the model's capability to accuratel
 
 Several factors likely contributed to the model's high performance. The synthetic nature of the dataset provides consistent lighting, clear object boundaries, and reduced background complexity compared to real-world images. Additionally, the transfer learning approach with ImageNet pre-training provided the model with robust feature extraction capabilities from the start.
 
-However, this study has notable limitations. First, the suspicious validation and test loss values (0.0) suggest implementation issues in the evaluation pipeline that need investigation. Second, the exclusive use of synthetic images limits ecological validity – real-world performance would likely decrease due to variations in lighting, background complexity, occlusion, and image quality. Third, the dataset reduction from 168,000 to 10,000 images may have eliminated valuable edge cases that would improve generalization.
+However, this study has notable limitations. First, the suspicious validation and test loss values (0.0) suggest implementation issues in the evaluation pipeline that need investigation. Second, the dataset reduction from 168,000 to 10,000 images may have eliminated valuable edge cases that would improve generalization.
 
 The model also lacks ability to distinguish between different LEGO piece types, which might be valuable in certain applications. This limitation was an intentional simplification for the current research focus but represents a clear direction for extension.
 
